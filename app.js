@@ -16,9 +16,9 @@ button1.onclick = function(){
 const h3 = document.querySelector(`h3`);
 
 // 2b
-h3.addEventListener(`mouseover` () => {
+h3.addEventListener(`mouseover`, () => {
     alert(`You hovered over the h3 element! Congrats!`);
-}, (once: true)); // <--- makes the alert stop after the first time
+}, {once: true}); // <--- makes the alert stop after the first time
 
 // 3a
 const form = document.querySelector(`form`);
